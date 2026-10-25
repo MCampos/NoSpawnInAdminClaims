@@ -1,0 +1,20 @@
+# NoSpawnInAdminClaims
+# Cancels natural mob spawns inside GriefPrevention claims. "Natural" means spawns the world
+# makes on its own (darkness, patrols, raids, lightning, drowned conversion, ender pearls).
+# Spawner blocks, spawn eggs, breeding, /summon and other plugins are never blocked.
+# Changes take effect after a restart.
+
+# Only protect admin claims (true) or every claim on the server (false).
+only-admin-claims: true
+
+# Block phantoms spawning over players inside the claim.
+block-phantoms: true
+
+# Block slimes and magma cubes.
+block-slimes: true
+
+# Also block passive animals and ambient mobs (bats, squid, cows...). Off by default.
+block-passive: false
+
+# Log every cancelled spawn to the console.
+debug: false

@@ -1,0 +1,7 @@
+name: NoSpawnInAdminClaims
+version: '1.0.0'
+main: dev.graygames.nospawn.NoSpawnInAdminClaims
+api-version: '26.1'
+depend: [GriefPrevention]
+author: graygames.dev
+description: Cancels natural hostile mob spawns inside GriefPrevention admin claims (spawn island). Spawners, eggs and breeding still work.
